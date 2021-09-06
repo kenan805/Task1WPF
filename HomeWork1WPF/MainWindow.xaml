@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWork1WPF"
         mc:Ignorable="d"
-        Title="HomeTask1Window" Height="450" Width="755" WindowStartupLocation="CenterScreen">
+        Height="450" Width="755" WindowStartupLocation="CenterScreen">
     <Grid x:Name="grid">
         <StackPanel x:Name="sp1" Orientation="Horizontal" Margin="0,0,0,210">
             <Button PreviewMouseLeftButtonDown="Button_MouseLeftButtonDown" PreviewMouseRightButtonDown="Button_PreviewMouseRightButtonDown" Background="Orange" Width="150" Height="100" FontSize="50" Margin="50,0,0,0" Content="1" BorderThickness="5" BorderBrush="Black"/>
