@@ -41,8 +41,7 @@ namespace HomeWork1WPF
         {
             if (sender is Button btn)
             {
-                sp1.Children.Remove(btn);
-                sp2.Children.Remove(btn);
+                grid.Children.Remove(btn);
                 Title += $"{btn.Content} ";
             }
         }
