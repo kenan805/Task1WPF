@@ -43,6 +43,7 @@ namespace HomeWork1WPF
             {
                 grid.Children.Remove(btn);
                 Title += $"{btn.Content} ";
+                
             }
         }
     }
